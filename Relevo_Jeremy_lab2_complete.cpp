@@ -146,11 +146,11 @@ int main()
     traverse(head);
     head = instertAtBeginning ("Good Days by SZA", head);
     traverse(head);
-     insertAfter ("Snooze by SZA","Let Down by Radiohead", head);
-     traverse(head);
-     insertAfter ("Revenge by XXXTENTACTION","Apocalypse by Cigarettes After Sex", head);
-     traverse(head);
-     insertAfter ("Hard Times by Paramore","Take a Chance With me", head);
+    insertAfter ("Snooze by SZA","Let Down by Radiohead", head);
+    traverse(head);
+    insertAfter ("Revenge by XXXTENTACTION","Apocalypse by Cigarettes After Sex", head);
+    traverse(head);
+    insertAfter ("Hard Times by Paramore","Take a Chance With me", head);
     traverse(head);
     
     cout << deleteAtEnd(head);
